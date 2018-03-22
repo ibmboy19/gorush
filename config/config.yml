@@ -27,13 +27,13 @@ grpc:
   port: 9000
 
 api:
-  push_uri: "/api/push"
-  stat_go_uri: "/api/stat/go"
-  stat_app_uri: "/api/stat/app"
-  config_uri: "/api/config"
-  sys_stat_uri: "/sys/stats"
-  metric_uri: "/metrics"
-  health_uri: "/healthz"
+  push_uri: "/mobile/notification/api/push"
+  stat_go_uri: "/mobile/notification/api/stat/go"
+  stat_app_uri: "/mobile/notification/api/stat/app"
+  config_uri: "/mobile/notification/api/config"
+  sys_stat_uri: "/mobile/notification/sys/stats"
+  metric_uri: "/mobile/notification/metrics"
+  health_uri: "/mobile/notification/healthz"
 
 android:
   enabled: true
